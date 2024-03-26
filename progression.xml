@@ -612,8 +612,8 @@
 
 
 	<!-- *** IRON_MELEE -->
-	<crafting_skill name="craftingMeleeWeaponIronT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
-		<display_entry icon="meleeWpnBladeT1HuntingKnife" name_key="harvestMeleeIron" has_quality="true" unlock_level="1" >
+	<crafting_skill name="craftingMeleeWeaponIronT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponIronT1Name" desc_key="craftingMeleeWeaponIronT1Desc" long_desc_key="craftingMeleeWeaponIronT1LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponIronT1" name_key="meleeWeaponIronT1" has_quality="false" unlock_level="1" >
 			<unlock_entry item="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge" unlock_tier="1" />
 		</display_entry>
 		<effect_group>
@@ -622,31 +622,46 @@
 		</effect_group>
 	</crafting_skill>
 	
-	<crafting_skill name="craftingMeleeWeaponIronT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponIronT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponIronT2Name" desc_key="craftingMeleeWeaponIronT2Desc" long_desc_key="craftingMeleeWeaponIronT2LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponIronT2" name_key="meleeWeaponIronT2" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponIronT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponIronT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponIronT3Name" desc_key="craftingMeleeWeaponIronT3Desc" long_desc_key="craftingMeleeWeaponIronT3LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponIronT3" name_key="meleeWeaponIronT3" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponIronT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponIronT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponIronT4nName" desc_key="craftingMeleeWeaponIronT4Desc" long_desc_key="craftingMeleeWeaponIronT4LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponIronT4" name_key="meleeWeaponIronT4" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponIronT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponIronT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponIronT5Name" desc_key="craftingMeleeWeaponIronT5Desc" long_desc_key="craftingMeleeWeaponironT5LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponIronT5" name_key="meleeWeaponIronT5" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponIronT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponIronT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponIronT6Name" desc_key="craftingMeleeWeaponIronT6Desc" long_desc_key="craftingMeleeWeaponIronT6LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponIronT6" name_key="meleeWeaponIronT6" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT1IronKnuckles,meleeWpnBladeT1HuntingKnife,meleeWpnClubT1BaseballBat,meleeWpnSledgeT1IronSledgehammer,meleeWpnSpearT1IronSpear,gunBotT1JunkSledge"/>
 		</effect_group>
