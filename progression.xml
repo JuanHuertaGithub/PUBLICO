@@ -669,8 +669,8 @@
 
 	
 	<!-- *** STEEL_MELEE -->
-	<crafting_skill name="craftingMeleeWeaponSteelT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
-		<display_entry icon="meleeWpnBladeT3Machete" name_key="harvestMeleeSteel" has_quality="true" unlock_level="1" >
+	<crafting_skill name="craftingMeleeWeaponSteelT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponSteelT1Name" desc_key="craftingMeleeWeaponSteelT1Desc" long_desc_key="craftingMeleeWeaponSteelT1LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponSteelT1" name_key="meleeWeaponSteelT1" has_quality="false" unlock_level="1" >
 			<unlock_entry item="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton" unlock_tier="1" />
 		</display_entry>
 		<effect_group>
@@ -679,31 +679,46 @@
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponSteelT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponSteelT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponSteelT2Name" desc_key="craftingMeleeWeaponSteelT2Desc" long_desc_key="craftingMeleeWeaponSteelT2LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponSteelT2" name_key="meleeWeaponSteelT2" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponSteelT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponSteelT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponSteelT3Name" desc_key="craftingMeleeWeaponSteelT3Desc" long_desc_key="craftingMeleeWeaponSteelT3LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponSteelT3" name_key="meleeWeaponSteelT3" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponSteelT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponSteelT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponSteelT4Name" desc_key="craftingMeleeWeaponSteelT4Desc" long_desc_key="craftingMeleeWeaponSteelT4LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponSteelT4" name_key="meleeWeaponSteelT4" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponSteelT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponSteelT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponSteelT5Name" desc_key="craftingMeleeWeaponSteelT5Desc" long_desc_key="craftingMeleeWeaponSteelT5LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponSteelT5" name_key="meleeWeaponSteelT5" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponSteelT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponSteelT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponSteelT6Name" desc_key="craftingMeleeWeaponSteelT6Desc" long_desc_key="craftingMeleeWeaponSteelT6LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponSteelT6" name_key="meleeWeaponSteelT6" has_quality="false" unlock_level="1" >
+			<unlock_entry item="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT3SteelKnuckles,meleeWpnBladeT3Machete,meleeWpnClubT3SteelClub,meleeWpnSledgeT3SteelSledgehammer,meleeWpnSpearT3SteelSpear,meleeWpnBatonT2StunBaton"/>
 		</effect_group>
@@ -711,8 +726,8 @@
 
 
 	<!-- *** TONGO_MELEE -->
-	<crafting_skill name="craftingMeleeWeaponTongoT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
-		<display_entry icon="meleeWpnSpikedClub" name_key="harvestMeleeTongo" has_quality="true" unlock_level="1" >
+	<crafting_skill name="craftingMeleeWeaponTongoT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponTongoT1Name" desc_key="craftingMeleeWeaponTongoT1Desc" long_desc_key="craftingMeleeWeaponTongoT1LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponTongoT1" name_key="meleeWeaponTongoT1" has_quality="true" unlock_level="1" >
 			<unlock_entry item="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM" unlock_tier="1" />
 		</display_entry>
 		<effect_group>
@@ -721,31 +736,46 @@
 		</effect_group>
 	</crafting_skill>	
 	
-	<crafting_skill name="craftingMeleeWeaponTongoT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponTongoT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponTongoT2Name" desc_key="craftingMeleeWeaponTongoT2Desc" long_desc_key="craftingMeleeWeaponTongoT2LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponTongoT2" name_key="meleeWeaponTongoT2" has_quality="true" unlock_level="1" >
+			<unlock_entry item="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponTongoT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponTongoT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponTongoT3Name" desc_key="craftingMeleeWeaponTongoT3Desc" long_desc_key="craftingMeleeWeaponTongoT3LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponTongoT3" name_key="meleeWeaponTongoT3" has_quality="true" unlock_level="1" >
+			<unlock_entry item="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponTongoT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponTongoT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponTongoT4Name" desc_key="craftingMeleeWeaponTongoT4Desc" long_desc_key="craftingMeleeWeaponTongoT4LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponTongoT4" name_key="meleeWeaponTongoT4" has_quality="true" unlock_level="1" >
+			<unlock_entry item="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponTongoT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponTongoT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponTongoT5Name" desc_key="craftingMeleeWeaponTongoT5Desc" long_desc_key="craftingMeleeWeaponTongoT5LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponTongoT5" name_key="meleeWeaponTongoT5" has_quality="true" unlock_level="1" >
+			<unlock_entry item="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponTongoT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponTongoT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponTongoT6Name" desc_key="craftingMeleeWeaponTongoT6Desc" long_desc_key="craftingMeleeWeaponTongoT6LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeWeaponTongoT6" name_key="meleeWeaponTongoT6" has_quality="true" unlock_level="1" >
+			<unlock_entry item="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM" unlock_tier="1" />
+		</display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnSpikedClub,meleeWpnGrapheneSledgehammerTM"/>
 		</effect_group>
