@@ -557,42 +557,54 @@
 
 	<!-- *** STONE_WOOD_MELEE -->
 	<crafting_skill name="craftingMeleeWeaponStoneT1TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponStoneT1Name" desc_key="craftingMeleeWeaponStoneT1Desc" long_desc_key="craftingMeleeWeaponStoneT1LongDesc" icon="ui_game_symbol_spear">
-          <display_entry icon="iconMeleeStoneT1" name_key="meleeWeaponStoneT1" has_quality="false" unlock_level="1" >
-            <unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
-          </display_entry>
-          <effect_group>
-            <passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
-          </effect_group>
+        	<display_entry icon="iconMeleeStoneT1" name_key="meleeWeaponStoneT1" has_quality="false" unlock_level="1" >
+                	<unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
+                </display_entry>
+                <effect_group>
+              		 <passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
+                </effect_group>
         </crafting_skill>
 
 	<crafting_skill name="craftingMeleeWeaponStoneT2TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponStoneT2Name" desc_key="craftingMeleeWeaponStoneT2Desc" long_desc_key="craftingMeleeWeaponStoneT2LongDesc" icon="ui_game_symbol_spear">
 		<display_entry icon="iconMeleeStoneT2" name_key="meleeWeaponStoneT2" has_quality="false" unlock_level="1" >
-                  <unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
+                	<unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
                 </display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponStoneT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponStoneT3TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponStoneT3Name" desc_key="craftingMeleeWeaponStoneT3Desc" long_desc_key="craftingMeleeWeaponStoneT3LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeStoneT3" name_key="meleeWeaponStoneT3" has_quality="false" unlock_level="1" >
+                	<unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
+                </display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponStoneT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponStoneT4TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponStoneT4Name" desc_key="craftingMeleeWeaponStoneT4Desc" long_desc_key="craftingMeleeWeaponStoneT4LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeStoneT4" name_key="meleeWeaponStoneT4" has_quality="false" unlock_level="1" >
+                	<unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
+                </display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponStoneT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponStoneT5TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponStoneT5Name" desc_key="craftingMeleeWeaponStoneT5Desc" long_desc_key="craftingMeleeWeaponStoneT5LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeStoneT5" name_key="meleeWeaponStoneT5" has_quality="false" unlock_level="1" >
+                	<unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
+                </display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
 		</effect_group>
 	</crafting_skill>
 
-	<crafting_skill name="craftingMeleeWeaponStoneT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponName" desc_key="craftingMeleeWeaponDesc" long_desc_key="craftingMeleeWeaponLongDesc" icon="ui_game_symbol_spear">
+	<crafting_skill name="craftingMeleeWeaponStoneT6TM" max_level="2" parent="attCrafting" name_key="craftingMeleeWeaponStoneT6Name" desc_key="craftingMeleeWeaponStoneT6Desc" long_desc_key="craftingMeleeWeaponStoneT6LongDesc" icon="ui_game_symbol_spear">
+		<display_entry icon="iconMeleeStoneT6" name_key="meleeWeaponStoneT6" has_quality="false" unlock_level="1" >
+                	<unlock_entry item="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton" unlock_tier="1" />
+                </display_entry>
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="2" value="1" tags="meleeWpnKnucklesT0LeatherKnuckles,meleeWpnBladeT0BoneKnife,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,meleeWpnSpearT0StoneSpear,meleeWpnBatonT0PipeBaton"/>
 		</effect_group>
